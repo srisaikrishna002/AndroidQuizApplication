@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/idTVDeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Developers"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTVDeveloper"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="saikrishnapinku@gmail.com"
+        android:textAlignment="center"
+        android:textColor="#E80505"
+        android:textColorHighlight="#E60F0F"
+        android:textColorHint="#ED0707"
+        android:textColorLink="#F3420A"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idBack"
+        android:layout_below="@id/idMail"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Back"
+        android:textSize="30sp"/>
+
+
+
+</RelativeLayout>
